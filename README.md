@@ -1,7 +1,5 @@
 ## Download the starter kit
 
-npx degit https://github.com/gopinav/React-TypeScript-Webpack-Starter my-app
-
 ## Install dependencies
 
 cd my-app &&
@@ -14,3 +12,7 @@ yarn start
 ## Build
 
 yarn build
+
+## Notes
+
+//https://xdevclass.com/cau-truc-react-folder-toi-uu-de-bao-tri-de-nang-cap/
