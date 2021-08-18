@@ -1,8 +1,7 @@
 import React from 'react'
-import { Container } from './styles'
 
 const AppBar = () => {
-  return <Container>Quản lý công ty</Container>
+  return <div className="text-xl font-bold">hl</div>
 }
 
 export default AppBar

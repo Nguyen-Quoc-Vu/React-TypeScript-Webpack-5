@@ -1,18 +1,7 @@
 ## Download the starter kit
 
-## Install dependencies
+## Webpack Boilerplate
 
-cd my-app &&
-yarn
-
-## Run dev server
-
-yarn start
-
-## Build
-
-yarn build
+Webpack 5 boilerplate using Babel, PostCSS, Eslint, Prettier, React and Typescript with an optimized production build.
 
 ## Notes
-
-//https://xdevclass.com/cau-truc-react-folder-toi-uu-de-bao-tri-de-nang-cap/

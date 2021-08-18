@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom'
 import { ThemeProvider } from 'styled-components'
 import { lightTheme } from './themes/theme'
 import GlobalStyle from './global'
+import './styles.css'
 
 ReactDOM.render(
   <BrowserRouter>
