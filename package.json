@@ -1,13 +1,10 @@
 {
   "name": "react-typescript-webpack-starter",
   "version": "1.0.0",
-  "description": "A starter template for React with Typescript using Webpack 5",
+  "description": "A template for React with Typescript using Webpack 5",
   "scripts": {
     "start": "webpack serve --config webpack/webpack.config.js --env env=dev --port 3000",
-    "build": "webpack --config webpack/webpack.config.js --env env=prod",
-    "lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\"",
-    "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack/webpack.config.js --env env=prod"
   },
   "keywords": [
     "React",
@@ -16,10 +13,11 @@
     "Starter Template",
     "Boilerplate"
   ],
-  "author": "Vishwas",
+  "author": "Vu",
   "license": "MIT",
   "dependencies": {
     "@types/react-router-dom": "^5.1.8",
+    "dotenv-webpack": "^7.0.3",
     "framer-motion": "^4.1.17",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -59,7 +57,7 @@
     "postcss": "^8.3.6",
     "postcss-cli": "^8.3.1",
     "postcss-loader": "^6.1.1",
-    "prettier": "^2.2.1",
+    "prettier": "2.3.2",
     "react-refresh": "^0.9.0",
     "style-loader": "^2.0.0",
     "tailwindcss": "^2.2.7",

@@ -1,15 +1,13 @@
-import React from 'react'
-import Card from '../../components/Card'
-import Container from '../../components/Container'
-
 const Home = () => {
   return (
-    <Container>
-      <Card
-        title="Chào mừng bạn đến với bộ Webpack của Quốc Vũ"
-        description="Prettier, Eslint, TailwindCSS, StyledComponents"
-      />
-    </Container>
+    <div className="flex flex-col space-y-4 justify-center min-h-screen bg-gray-800 items-center">
+      <div className="text-2xl font-bold rounded-md bg-transparent text-gray-100">
+        React Webpack 5 Configure With TypeScript
+      </div>
+      <div className="text-md rounded-lg font-semibold bg-transparent text-gray-300">
+        Credits: Quoc Vu
+      </div>
+    </div>
   )
 }
 

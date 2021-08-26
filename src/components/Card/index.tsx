@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Description, Title } from './styles'
-
 interface CardProps {
   title: string
   description: string
